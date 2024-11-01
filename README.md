@@ -79,12 +79,12 @@ streamlit run app.py
 
 ## Examples
 
-Here are some of the amazing tools created by PyScientist:
+Here are some of the amazing packages created by PyScientist:
 
 - **AutoML**: Automated Machine Learning pipelines.
 - **AutoVision**: Computer Vision models and solutions.
-- **AutoSpeech**: Speech processing tools.
-- **Quantum Error Correction**: Advanced tools for quantum computing research.
+- **AutoSpeech**: Speech processing package.
+- **Quantum Error Correction**: Simple Quantum Error Correction Package.
 
 ## Contributing
 
