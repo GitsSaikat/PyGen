@@ -7,7 +7,7 @@
 
 <p align="center">
   📚 <a href="https://github.com/GitsSaikat/PyScientist">[GitHub Repository]</a> |
-  📝 <a href="https://medium.com/@pyscientist">[Blog Post]</a>
+  📝 <a href="">[Paper]</a>
 </p>
 
  **Hello World, Welcome to PyScientist!**
