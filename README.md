@@ -13,7 +13,7 @@
  **Hello World, Welcome to PyScientist!**
  
 
-magine if turning your wildest ideas into software was as easy as asking for it—that's what PyScientist is all about! Whether you're a researcher, a tech enthusiast, or someone with a creative spark, PyScientist helps turn abstract thoughts into real, functioning Python tools. With the power of advanced language models, PyScientist makes coding simpler, faster, and more fun.
+Imagine if turning your wildest ideas into software was as easy as asking for it—that's what PyScientist is all about! Whether you're a researcher, a tech enthusiast, or someone with a creative spark, PyScientist helps turn abstract thoughts into real, functioning Python tools. With the power of advanced language models, PyScientist makes coding simpler, faster, and more fun.
 
 PyScientist is like having a tech-savvy assistant who builds software for you. From an idea to a full-blown Python package—complete with testing and documentation—PyScientist does the heavy lifting. We've even built examples like AutoML (automated machine learning), AutoVision (computer vision), AutoSpeech, and tools for Quantum Error Correction to show what's possible.
 
