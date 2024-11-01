@@ -1,6 +1,6 @@
 <h1 align="center">
-  <a href="https://github.com/GitsSaikat/PyScientist/blob/main/logo/Logo.png">
-    <img src="docs/logo.png" width="215" /></a><br>
+  <a href="https://github.com/GitsSaikat/PyScientist/logo/Logo.png">
+    <img src="logo/Logo.png" width="215" /></a><br>
   <b>PyScientist: Turning Your Ideas into Code 🚀</b><br>
   <b>Empowering Automated Python Package Creation 🐍</b><br>
 </h1>
