@@ -1,0 +1,12 @@
+Package_Name = ['Auto Vision System']
+Description_Prompt = ['It automates visual data processing, recognition, and interpretation using machine learning and computer vision techniques.']
+Feature_Prompt = 
+[
+'Image Preprocessing and Augmentation',
+'Object Detection and Tracking',
+'Feature Extraction',
+'Image Classification',
+'Segmentation and Masking',
+'Scalability and Distributed Vision Processing',
+'Explainability and Visual Analytics',
+]

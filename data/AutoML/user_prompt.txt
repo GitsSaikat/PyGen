@@ -1,0 +1,14 @@
+Package_Name = ['AutoML']
+
+Description_Prompt=['It automates the machine-learning pipeline']
+
+Feature_Prompt= [
+'Data Preprocessing and Cleaning',
+'Feature Engineering',
+'Model Selection',
+'Hyperparameter Tuning',
+'Model Ensemble',
+'Performance Evaluation',
+'Explainability and Interpretability',
+'Model Deployment and Integration',
+]

@@ -1,0 +1,13 @@
+Package_Name = ['Auto Speech System']
+Description_Prompt = ['It automates the processing, recognition, and interpretation of speech data using machine learning and natural language processing techniques.']
+Feature_Prompt =
+[
+'Speech Preprocessing and Noise Reduction',
+'Speech-to-Text Conversion',
+'Feature Extraction',
+'Speaker Identification and Verification',
+'Speech Segmentation',
+'Real-time Speech Recognition',
+'Explainability and Speech Analytics',
+'Model Deployment and Integration',
+]
