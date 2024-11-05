@@ -1,19 +1,19 @@
 <h1 align="center">
-  <a href="https://github.com/GitsSaikat/PyScientist/Logo.jpg">
-    <img src="docs/logo.png" width="215" /></a><br>
-  <b>PyScientist: Turning Your Ideas into Code 🚀</b><br>
-  <b>Empowering Automated Python Package Creation 🐍</b><br>
+  <a href="https://github.com/GitsSaikat/PyScientist/logo/Logo.png">
+    <img src="logo/Logo.png" width="215" /></a><br>
+  <b>PyScientist: Turning Your Ideas into Python Package 🚀</b><br>
+  <b>Empowering the World with Automated Python Package Creation 🐍</b><br>
 </h1>
 
 <p align="center">
   📚 <a href="https://github.com/GitsSaikat/PyScientist">[GitHub Repository]</a> |
-  📝 <a href="https://medium.com/@pyscientist">[Blog Post]</a>
+  📝 <a href="">[Paper]</a>
 </p>
 
  **Hello World, Welcome to PyScientist!**
  
 
-magine if turning your wildest ideas into software was as easy as asking for it—that's what PyScientist is all about! Whether you're a researcher, a tech enthusiast, or someone with a creative spark, PyScientist helps turn abstract thoughts into real, functioning Python tools. With the power of advanced language models, PyScientist makes coding simpler, faster, and more fun.
+Imagine if turning your wildest ideas into software was as easy as asking for it—that's what PyScientist is all about! Whether you're a researcher, a tech enthusiast, or someone with a creative spark, PyScientist helps turn abstract thoughts into real, functioning Python tools. With the power of advanced language models, PyScientist makes coding simpler, faster, and more fun.
 
 PyScientist is like having a tech-savvy assistant who builds software for you. From an idea to a full-blown Python package—complete with testing and documentation—PyScientist does the heavy lifting. We've even built examples like AutoML (automated machine learning), AutoVision (computer vision), AutoSpeech, and tools for Quantum Error Correction to show what's possible.
 
@@ -79,12 +79,12 @@ streamlit run app.py
 
 ## Examples
 
-Here are some of the amazing tools created by PyScientist:
+Here are some of the amazing packages created by PyScientist:
 
 - **AutoML**: Automated Machine Learning pipelines.
 - **AutoVision**: Computer Vision models and solutions.
-- **AutoSpeech**: Speech processing tools.
-- **Quantum Error Correction**: Advanced tools for quantum computing research.
+- **AutoSpeech**: Speech processing package.
+- **Quantum Error Correction**: Simple Quantum Error Correction Package.
 
 ## Contributing
 
