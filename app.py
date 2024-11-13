@@ -499,8 +499,8 @@ Begin the documentation below:
         return None
 
 def main():
-    st.set_page_config(page_title="🛠️ Python Package Generator", layout="wide")
-    st.title("🛠️ Python Package Generator")
+    st.set_page_config(page_title="🛠️ PyGen", layout="wide")
+    st.title("🛠️ PyGen")
     st.write("Generate a Python package structure using Groq or GEMINI models and download it as a ZIP file.")
 
     # API Configuration
