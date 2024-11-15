@@ -7,7 +7,7 @@
 
 <p align="center">
   📚 <a href="https://github.com/GitsSaikat/PyGen">[GitHub Repository]</a> |
-  📝 <a href="https://github.com/GitsSaikat/PyGen/tree/main/Paper">[Paper]</a>
+  📝 <a href="https://arxiv.org/abs/2411.08932">[Paper]</a>
 </p>
 
  **Hello World, Welcome to PyGen!**
