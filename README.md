@@ -94,3 +94,19 @@ We welcome contributions! If you want to help us make PyGen even better, please 
 
 PyGen is licensed under the MIT License. See the [LICENSE](https://github.com/GitsSaikat/PyGen/blob/main/LICENSE) file for more details.
 
+## Citations
+
+If you use PyGen in your research or project, please cite it as follows:
+
+  ```bibtex
+@misc{barua2024pygencollaborativehumanaiapproach,
+      title={PyGen: A Collaborative Human-AI Approach to Python Package Creation}, 
+      author={Saikat Barua and Mostafizur Rahman and Md Jafor Sadek and Rafiul Islam and Shehnaz Khaled and Md. Shohrab Hossain},
+      year={2024},
+      eprint={2411.08932},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2411.08932}, 
+}
+ ```   
+
