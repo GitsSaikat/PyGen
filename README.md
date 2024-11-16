@@ -36,6 +36,7 @@ PyGen is about making technology accessible to everyone, sharing knowledge, and 
 5. [Examples](#examples)
 6. [Contributing](#contributing)
 7. [License](#license)
+8. [Citations](#citations)
 
 ## Introduction
 
