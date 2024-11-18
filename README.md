@@ -78,6 +78,20 @@ To start using PyGen, run the main script:
 streamlit run app.py
 ```
 
+## Tutorial
+
+🎥 **Watch our YouTube Tutorial:**  
+Learn how to get started with PyGen and explore its features by watching our comprehensive [YouTube tutorial](https://youtu.be/1e_sGCcaO5U?si=zes2lT95if3IA03K).
+
+In this tutorial, you'll discover:
+- How to set up PyGen on your local machine
+- Step-by-step guidance on creating your first Python package with PyGen
+- Tips and best practices to maximize the potential of automated package creation
+- Demonstrations of advanced features and example projects
+
+Whether you're a beginner or an experienced developer, our tutorial will help you harness the full power of PyGen to bring your ideas to life effortlessly.
+
+
 ## Examples
 
 Here are some of the amazing packages created by PyGen:
