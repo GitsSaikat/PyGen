@@ -33,10 +33,11 @@ PyGen is about making technology accessible to everyone, sharing knowledge, and 
 2. [Requirements](#requirements)
 3. [Installation](#installation)
 4. [Getting Started](#getting-started)
-5. [Examples](#examples)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Citations](#citations)
+5. [Tutorial](#tutorial)
+6. [Examples](#examples)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Citations](#citations)
 
 ## Introduction
 
