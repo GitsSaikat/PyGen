@@ -11,10 +11,7 @@ import joblib
 from datetime import datetime
 
 class AutoMLPipeline:
-    """
-    AutoML pipeline that handles the entire machine learning workflow from
-    data preprocessing to model deployment.
-    """
+   
     
     def __init__(self, random_state: int = 42):
         self.random_state = random_state
@@ -28,7 +25,7 @@ class AutoMLPipeline:
         self.deployer = ModelDeployer()
 
 class DataPreprocessor:
-    """Handles data preprocessing and cleaning tasks."""
+    
     
     def __init__(self):
         self.numerical_imputer = SimpleImputer(strategy='mean')
@@ -37,10 +34,7 @@ class DataPreprocessor:
         self.label_encoders = {}
         
     def preprocess(self, data: pd.DataFrame) -> pd.DataFrame:
-        """
-        Preprocesses the input data by handling missing values, encoding
-        categorical variables, and scaling numerical features.
-        """
+       
         processed_data = data.copy()
         
         # Identify numerical and categorical columns
@@ -65,12 +59,10 @@ class DataPreprocessor:
         return processed_data
 
 class FeatureEngineer:
-    """Handles feature engineering tasks."""
+
     
     def engineer_features(self, data: pd.DataFrame) -> pd.DataFrame:
-        """
-        Generates new features from existing ones to improve model performance.
-        """
+       
         engineered_data = data.copy()
         
         # Add interaction terms between numerical features
@@ -85,7 +77,7 @@ class FeatureEngineer:
         return engineered_data
 
 class ModelSelector:
-    """Handles model selection tasks."""
+ 
     
     def __init__(self, random_state: int = 42):
         self.random_state = random_state
@@ -98,9 +90,7 @@ class ModelSelector:
     
     def select_best_model(self, X_train: np.ndarray, y_train: np.ndarray,
                          X_val: np.ndarray, y_val: np.ndarray) -> BaseEstimator:
-        """
-        Selects the best performing model based on validation metrics.
-        """
+        
         for name, model in self.models.items():
             model.fit(X_train, y_train)
             score = model.score(X_val, y_val)
@@ -112,13 +102,11 @@ class ModelSelector:
         return self.best_model
 
 class HyperparameterTuner:
-    """Handles hyperparameter tuning tasks."""
+   
     
     def tune_hyperparameters(self, model: BaseEstimator, X_train: np.ndarray,
                             y_train: np.ndarray) -> BaseEstimator:
-        """
-        Tunes the hyperparameters of the given model using grid search.
-        """
+     
         # Example hyperparameter grid for RandomForestClassifier
         if isinstance(model, RandomForestClassifier):
             param_grid = {
@@ -129,24 +117,20 @@ class HyperparameterTuner:
         return model
 
 class ModelEnsemble:
-    """Handles model ensemble tasks."""
+   
     
     def create_ensemble(self, models: List[BaseEstimator], weights: Optional[List[float]] = None) -> Any:
-        """
-        Creates an ensemble of models with optional weights.
-        """
+   
         if weights is None:
             weights = [1/len(models)] * len(models)
         return {'models': models, 'weights': weights}
 
 class PerformanceEvaluator:
-    """Handles model performance evaluation tasks."""
+ 
     
     def evaluate_model(self, model: BaseEstimator, X_test: np.ndarray,
                       y_test: np.ndarray) -> Dict[str, float]:
-        """
-        Evaluates model performance using various metrics.
-        """
+   
         y_pred = model.predict(X_test)
         return {
             'accuracy': accuracy_score(y_test, y_pred),
@@ -156,24 +140,20 @@ class PerformanceEvaluator:
         }
 
 class ModelExplainer:
-    """Handles model explainability tasks."""
+ 
     
     def explain_predictions(self, model: BaseEstimator, X: np.ndarray,
-                          feature_names: List[str]) -> Dict[str, float]:
-        """
-        Provides feature importance and prediction explanations.
-        """
+                           feature_names: List[str]) -> Dict[str, float]:
+        
         if hasattr(model, 'feature_importances_'):
             return dict(zip(feature_names, model.feature_importances_))
         return {}
 
 class ModelDeployer:
-    """Handles model deployment tasks."""
+    
     
     def deploy_model(self, model: BaseEstimator, model_path: str) -> str:
-        """
-        Deploys the trained model to the specified path.
-        """
+      
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         model_filename = f"{model_path}/model_{timestamp}.joblib"
         joblib.dump(model, model_filename)
