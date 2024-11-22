@@ -7,7 +7,7 @@
 
 <p align="center">
   📚 <a href="https://github.com/GitsSaikat/PyGen">[GitHub Repository]</a> |
-  📝 <a href="https://github.com/GitsSaikat/PyGen/tree/main/Paper">[Paper]</a>
+  📝 <a href="https://arxiv.org/abs/2411.08932">[Paper]</a>
 </p>
 
  **Hello World, Welcome to PyGen!**
@@ -33,9 +33,11 @@ PyGen is about making technology accessible to everyone, sharing knowledge, and 
 2. [Requirements](#requirements)
 3. [Installation](#installation)
 4. [Getting Started](#getting-started)
-5. [Examples](#examples)
-6. [Contributing](#contributing)
-7. [License](#license)
+5. [Tutorial](#tutorial)
+6. [Examples](#examples)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Citations](#citations)
 
 ## Introduction
 
@@ -77,6 +79,20 @@ To start using PyGen, run the main script:
 streamlit run app.py
 ```
 
+## Tutorial
+
+🎥 **Watch our YouTube Tutorial:**  
+Learn how to get started with PyGen and explore its features by watching our comprehensive [YouTube tutorial](https://youtu.be/1e_sGCcaO5U?si=zes2lT95if3IA03K).
+
+In this tutorial, you'll discover:
+- How to set up PyGen on your local machine
+- Step-by-step guidance on creating your first Python package with PyGen
+- Tips and best practices to maximize the potential of automated package creation
+- Demonstrations of advanced features and example projects
+
+Whether you're a beginner or an experienced developer, our tutorial will help you harness the full power of PyGen to bring your ideas to life effortlessly.
+
+
 ## Examples
 
 Here are some of the amazing packages created by PyGen:
@@ -93,4 +109,20 @@ We welcome contributions! If you want to help us make PyGen even better, please 
 ## License
 
 PyGen is licensed under the MIT License. See the [LICENSE](https://github.com/GitsSaikat/PyGen/blob/main/LICENSE) file for more details.
+
+## Citations
+
+If you use PyGen in your research or project, please cite it as follows:
+
+  ```bibtex
+@misc{barua2024pygencollaborativehumanaiapproach,
+      title={PyGen: A Collaborative Human-AI Approach to Python Package Creation}, 
+      author={Saikat Barua and Mostafizur Rahman and Md Jafor Sadek and Rafiul Islam and Shehnaz Khaled and Md. Shohrab Hossain},
+      year={2024},
+      eprint={2411.08932},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2411.08932}, 
+}
+ ```   
 
